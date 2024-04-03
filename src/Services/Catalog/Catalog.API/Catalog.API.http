@@ -1,6 +1,14 @@
-@Catalog.API_HostAddress = http://localhost:5224
+@API_HostAddress = https://localhost:5050
 
-GET {{Catalog.API_HostAddress}}/weatherforecast/
-Accept: application/json
+POST {{API_HostAddress}}/products/
+Content-Type: application/json
+
+{
+  "name": "Product A",
+  "categories": ["c1", "c2"],
+  "description": "Description Product A",
+  "imageFile": "ImageProductA.jpg",
+  "price": 199
+}
 
 ###
