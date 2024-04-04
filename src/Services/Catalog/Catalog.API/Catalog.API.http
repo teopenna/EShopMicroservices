@@ -4,11 +4,11 @@ POST {{API_HostAddress}}/products/
 Content-Type: application/json
 
 {
-  "name": "Product C",
-  "categories": ["c1", "c2", "c4"],
-  "description": "Description Product C",
-  "imageFile": "ImageProductC.jpg",
-  "price": 299
+  "name": "Product D",
+  "categories": ["c3", "c4"],
+  "description": "Description Product D",
+  "imageFile": "ImageProductD.jpg",
+  "price": 249
 }
 
 ###
@@ -35,5 +35,9 @@ Content-Type: application/json
   "imageFile": "ImageProductC.jpg",
   "price": 299
 }
+
+###
+
+DELETE {{API_HostAddress}}/products/018eaacc-31e4-48d2-aa2a-b6a76b20c3a9
 
 ###
