@@ -24,3 +24,16 @@ GET {{API_HostAddress}}/products/018ea7d0-a10e-4738-8999-757fea86689e
 GET {{API_HostAddress}}/products/category/c4
 
 ###
+
+PUT {{API_HostAddress}}/products/018ea7d0-a10e-4738-8999-757fea86689e
+Content-Type: application/json
+
+{
+  "name": "Product C",
+  "categories": ["c1", "c4"],
+  "description": "Description Product C",
+  "imageFile": "ImageProductC.jpg",
+  "price": 299
+}
+
+###
